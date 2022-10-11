@@ -1,0 +1,34 @@
+{
+  "name": "image-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "deploy": "git push heroku main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/versumstudios/image-check.git"
+  },
+  "keywords": [],
+  "author": "versumstudios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/versumstudios/image-check/issues"
+  },
+  "homepage": "https://github.com/versumstudios/image-check#readme",
+  "dependencies": {
+    "buffer-image-size": "^0.6.4",
+    "express": "^4.18.1",
+    "http": "^0.0.1-security",
+    "image-size-from-url": "^1.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
